@@ -1,0 +1,137 @@
+body {
+	background-image: url(../media/pic/Liptops/82o33XokGFCnWVW5orRSf3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body_container {
+	width: 100%;
+	margin: auto;
+}
+
+.sub_body_container {
+	width: 90%;
+	text-align-last: center
+}
+
+.partition {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.sub_partition {
+	padding: 50px;
+
+	display: inline-block;
+	border: solid 2px rgb(2, 53, 2);
+	border-radius: 10px;
+	box-shadow: 0px 0px 40px rgb(15, 85, 15);
+	background-color: white;
+}
+
+.form_head {
+	font-family: cursive;
+	text-align-last: center;
+
+}
+
+.form_sub_head {
+	font-size: 12pt;
+	padding-top: 1px;
+}
+
+.form_head,
+.form_sub_head,
+label {
+	color: gray;
+
+}
+
+#log_in {
+	padding-top: 1px;
+}
+
+.form_item {
+	margin-top: 10px;
+}
+
+label {
+	display: block;
+	padding-top: 9px;
+}
+
+input {
+	padding-top: 5px;
+}
+
+label[for=name],
+label[for=email],
+label[for=password],
+label[for=address],
+label[for=contact] {
+	font-family: cursive;
+
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=address],
+input[type=number] {
+	border: 1px solid;
+	border-color: #1c376bde;
+	;
+	border-radius: 10px;
+	height: 30px;
+	width: 300px;
+}
+
+input[placeholder=Name],
+input[placeholder=Email],
+input[placeholder=Password],
+input[placeholder=Address],
+input[placeholder=Contact] {
+	padding: 12px;
+	box-shadow: 0px 0px 20px #1c376bde;
+}
+
+#under_take {
+	font-family: cursive;
+	font-size: 10pt;
+}
+
+#under_take>a {
+	color: #1c376bde;
+	text-decoration: none;
+}
+
+input[type=submit] {
+	background-color: #1c376bde;
+	width: 60%;
+	color: white;
+	border: 1px double;
+	border-radius: 7px;
+	border-color: #1c376bde;
+	padding: 3px;
+	text-align-last: center;
+	box-shadow: 0px 0px 20px #1c376bde;
+	;
+}
+
+#tick {
+	background-color: rgb(2, 53, 2);
+}
+
+#txt {
+	opacity: 65%;
+	font-family: cursive;
+	font-size: 10pt;
+}
+
+#text>a {
+	color: #1c376bde;
+	font-family: cursive;
+	font-size: 10pt;
+	text-decoration: none;
+}

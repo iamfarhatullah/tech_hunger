@@ -1,0 +1,76 @@
+body {
+    background-image: url(../media/pic/Liptops/wallpapersden.com_keyboard-laptop-macro_1920x1080.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.m_form_body {
+
+    border: solid 2px rgb(2, 53, 2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgb(15, 85, 15);
+    background-color: silver;
+}
+
+.form_heading {
+    color: rgb(2, 53, 2);
+}
+
+input[type="checkbox"] {
+    width: 20px !important;
+    cursor: pointer;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 220px !important;
+    border: solid 1px;
+    padding: 10px !important;
+    color: #1f5c13;
+    box-shadow: 0px 0px 20px rgb(15, 85, 15);
+    margin: 10px;
+}
+
+input[placeholder] {
+    text-align-last: left;
+}
+
+
+.butnn {
+    background-color: #1c6b27de;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    height: 50px;
+
+}
+
+.butnn:hover {
+    background-color: #52658c;
+    transition-duration: 1s;
+    transition-delay: 0.7s;
+}
+
+.reg {
+
+    width: 150px;
+}
+
+.log_in {
+    width: 100px;
+}
+
+.ps_hover>a,
+.ps_hover>a:hover {
+    text-decoration: none;
+    color: #52658c;
+
+}
+
+.ps_hover:hover {
+    color: #52658c;
+    cursor: pointer;
+    text-decoration: none;
+
+}

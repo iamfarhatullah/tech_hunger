@@ -1,0 +1,188 @@
+body {
+    margin: 0% auto;
+    padding:0% auto;
+    scroll-behavior:smooth;
+    
+}
+
+/* whatsapp btn css starts here */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+/* whatsapp btn css end here */
+
+/* up of nav bar sec css starts */
+.header_top{
+    background-color: #52658c;
+}
+.f-13{
+    font-size: 13px;
+    color: white;
+}
+.uph{
+    height: 40px;
+}
+.pc:hover{
+    cursor: pointer;
+    color: silver;
+}
+/* up of nav bar sec css ends */
+
+/* nav css starts here */
+.btclr{
+    background-color: #758fc2;
+    border:#758fc2;
+}
+.bt_nav_l{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.bt_nav_r{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btclr:hover{
+    background-color: #52658c;
+    border: #52658c;
+    font-family: serif;
+    font-weight: bold;
+    color: white;
+    transition-duration: 0.9s;
+    transition-delay: 0.1s;
+
+}
+
+/* nav css ends here */
+
+/* cards css starts here */
+
+.txt_clr{
+    color: #1c376bde;
+}
+
+.card_txt_clr{
+    color: rgb(55, 64, 114);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+                
+}
+.card_sub_txt_clr{
+    color: rgba(2, 39, 2, 0.795);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.crd_bt{
+        background-color: rgb(2, 53, 2);
+        border-color: rgb(2, 53, 2);
+        color:#52658c;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        font-style: oblique;
+}
+.crd_bt:hover{
+    background-color: #1c376bde ;
+    border-color: #1c376bde;
+    color: gray;
+    font-family: monospace;
+    font-weight: lighter;
+    font-style:italic;
+
+}
+/* cards css ends here */
+
+/* gallery section css starts here */
+.img_head{
+    color:#3b62acde
+    
+}
+.gallery_img{
+    background-image: url(./../media/pic/Liptops/VRG_4013_Best_Laptop_Grid.jpg);
+    width: 1300px;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* gallery section css ends here */
+
+/* logistic logo section css starts here  */
+.logo_txt_clr{
+    color: rgb(15, 85, 15);
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 900;
+    
+
+}
+.logo_bg{
+    background-color: #aaa;
+    line-height: 3;
+}
+.logo_img{
+    width: 100px;
+    height: 100px;
+}
+/* logistic logo section css ends here  */
+
+
+/* footer css starts here */
+.up_sec{
+    background-image: url(../media/pic/Liptops/macro-blur-keyboard-laptop-wallpaper-preview.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 400px;
+    background-attachment:fixed;
+}
+.foot_cntnt_head{
+    color: rgb(2, 53, 2);
+    text-decoration: underline;
+    list-style: none;
+
+}
+.foot_cntnt > div > li{
+    list-style:none;
+    
+}
+.foot_cntnt > div > li > a{
+    text-decoration: none;
+    color: rgb(2, 53, 2);
+}
+.ft_ic{
+    color: rgb(229, 255, 0);
+}
+.ft_txt {
+    color: rgb(229, 255, 0);
+    font-family: helvetica;
+    font-style: italic;
+    font-weight: 800;
+}
+.dwn_sec{
+    background-color:#1c376bde;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: lighter;
+    line-height: 3;
+    text-align-last:center;
+}
+
+/* footer css ends here */

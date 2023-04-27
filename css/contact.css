@@ -1,0 +1,46 @@
+body {
+    background-image: url(../media/pic/acces/HD-wallpaper-keyboard-gamer-colors-gamer-keyboard-keyboard-gamer-neon-thumbnail.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.sub_form_body {
+    /* background-image: url(../../../media/img/1.jpg); */
+    background-size: cover;
+
+}
+
+.form_icon_bg {
+    border: 1px solid #52658c;
+    border-radius: 50%;
+    padding: 12px;
+    box-shadow: 0px 0px 20px #1b6133;
+    background-color: white;
+}
+
+.form_txt {
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+    /* text-shadow: 1px 1px 1px #1b6133; */
+}
+
+.inner_form_right {
+    background-color: #1b6133;
+    border-radius: 20px;
+    padding: 10px;
+
+
+}
+
+input[placeholder],
+textarea {
+    border: none;
+    border-bottom: 1px solid white;
+    background: none;
+    color: white;
+    font-style: italic;
+}

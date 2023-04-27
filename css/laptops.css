@@ -1,0 +1,85 @@
+/* products card css starts here */
+
+.cards_bg{
+    background-color: #e2e1e1;
+}
+.r_clr{
+
+    color: rgb(15, 85, 15);
+    font-family: cursive;
+    font-style: italic;
+    font-size: larger;
+
+}
+.r_crd_txt_clr{
+        color: #37567e;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+
+}
+
+.card-a{
+    overflow: hidden;
+}
+.lable{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    right: -35px;
+    text-align-last: center;
+    border-bottom-right-radius: 3px;
+    background-color: #262672;
+    border-radius:  0px 0px 0px 0px;
+    transform: rotate(45deg);
+    color: white;
+}
+.lable_a{
+    
+        width: 150px;
+        height: 30px;
+        position: absolute;
+        top: 25px;
+        right: -35px;
+        text-align-last: center;
+        border-bottom-right-radius: 3px;
+        background-color: #ff0000;
+        border-radius:  0px 0px 0px 0px;
+        transform: rotate(45deg);
+        color: white;
+}
+.lable_b{
+    
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    right: -35px;
+    text-align-last: center;
+    border-bottom-right-radius: 3px;
+    background-color: #18470a;
+    border-radius:  0px 0px 0px 0px;
+    transform: rotate(45deg);
+    color: white;
+}
+.lable_c{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    right: -35px;
+    text-align-last: center;
+    border-bottom-right-radius: 3px;
+    color: #ffee00;
+    border-radius:  0px 0px 0px 0px;
+    transform: rotate(45deg);
+    background-color:  black;
+}
+/* pagination css starts here */
+
+/* .pag_m_sec{
+
+    margin: 0%;
+    padding: 0%;
+    margin-right: 50pxx;
+} */
